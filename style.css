@@ -18,6 +18,8 @@ a:hover{
     float: right;
 }
 .bottomReferrer{
+    list-style-type: none;
     position: absolute;
     bottom: 0px;
+    background-color: darkblue;
 }
