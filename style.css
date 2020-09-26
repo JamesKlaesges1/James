@@ -1,0 +1,23 @@
+h1 {
+    color: black;
+    background-color: rgb(250, 27, 27);
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+a:link{
+    font-style: italic;
+}
+a:hover{
+    font-style: bold;
+    background-color: yellow;
+}
+.float{
+    float:left;
+}
+.floatRight{
+    float: right;
+}
+.bottomReferrer{
+    position: absolute;
+    bottom: 0px;
+}
