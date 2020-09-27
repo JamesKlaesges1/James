@@ -23,3 +23,7 @@
 .center{
     text-align: center;
 }
+.padding{
+    float:left;
+    padding: 0.5rem, 0.5rem;
+}
