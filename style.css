@@ -6,6 +6,7 @@
 }
 .clearLeft{
     clear: left;
+    padding-bottom: 1rem;
 }
 .bottomReferrer{
     list-style-type: none;
