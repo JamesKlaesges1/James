@@ -4,6 +4,9 @@
 .floatRight{
     float: right;
 }
+.clearLeft{
+    clear: left;
+}
 .bottomReferrer{
     list-style-type: none;
     position: fixed;
