@@ -23,3 +23,9 @@ a:hover{
     bottom: 0px;
     background-color: darkblue;
 }
+.block{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
