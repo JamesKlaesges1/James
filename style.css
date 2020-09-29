@@ -7,6 +7,9 @@
 .clearLeft{
     clear: left;
 }
+.clearRight{
+    clear: right;
+}
 .bottomReferrer{
     list-style-type: none;
     position: fixed;
