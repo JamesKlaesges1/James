@@ -25,7 +25,12 @@
     color: white;
     text-align: center;
     padding: 2rem;
+    font-size: 1.25rem;
+    text-decoration: none;
 }
+li a:hover {
+    background-color: #555;
+  }
 .center{
     text-align: center;
 }
