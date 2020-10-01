@@ -14,23 +14,41 @@
     list-style-type: none;
     position: fixed;
     width: 10%;
-    height: 100%;
+    height: 95%;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #F4976C;
     overflow: auto;
 }
 .block{
     display: block;
-    color: white;
+    color: #D2FDFF;
     text-align: center;
     padding: 2rem;
     font-size: 1.25rem;
     text-decoration: none;
 }
-li a:hover {
-    background-color: #555;
-  }
+li a:hover{
+    background-color: #FBE8A6;
+}
+p{
+    background-color: #B4DFE5;
+    padding: 1.1rem;
+    padding-left: 5rem;
+    width: 75rem;
+}
+h1{
+    background-color: #303C6C;
+    color:#B4DFE5;
+    padding: 1.1rem;
+    padding-left: 2rem;
+}
+h2{
+    background-color: #303C6C;
+    color:#B4DFE5;
+    padding: 1.1rem;
+    padding-left: 2rem;
+}
 .center{
     text-align: center;
 }
