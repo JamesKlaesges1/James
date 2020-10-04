@@ -5,6 +5,7 @@
 .floatRight{
     float: right;
     padding-left: 1rem;
+    padding-right: 1rem;
 }
 .clearLeft{
     clear: left;
@@ -37,7 +38,7 @@ p{
     background-color: #B4DFE5;
     padding: 1.1rem;
     padding-left: 2rem;
-    width: 75rem;
+    width: 90%;
     margin-left: 1rem;
 }
 h1{
@@ -45,18 +46,21 @@ h1{
     color:#B4DFE5;
     padding: 1.1rem;
     padding-left: 2rem;
+    width: 95%;
 }
 h2{
     background-color: #303C6C;
     color:#B4DFE5;
     padding: 1.1rem;
     padding-left: 2rem;
+    width: 95%;
 }
 h3{
     background-color: #303C6C;
     color:#B4DFE5;
     padding: 0.75rem;
     padding-left: 2rem;
+    width: 95%;
 }
 a:hover{
     background-color:  #D2FDFF;
