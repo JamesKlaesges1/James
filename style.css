@@ -60,7 +60,15 @@ h3{
 }
 a:hover{
     background-color:  #D2FDFF;
-
+}
+.activeBlock{
+    background-color:  #FBE8A6;
+    display: block;
+    color: #D2FDFF;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.25rem;
+    text-decoration: none;
 }
 .center{
     text-align: center;
