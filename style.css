@@ -62,6 +62,10 @@ h3{
     padding-left: 2rem;
     width: 95%;
 }
+img, video{
+    padding-bottom: 1rem;
+    outline: none;
+}
 a:hover{
     background-color:  #D2FDFF;
 }
