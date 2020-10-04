@@ -65,6 +65,8 @@ h3{
 img, video{
     padding-bottom: 1rem;
     outline: none;
+    max-width: 100%;
+    height: auto;
 }
 a:hover{
     background-color:  #D2FDFF;
@@ -81,3 +83,8 @@ a:hover{
 .center{
     text-align: center;
 }
+/*
+@media screen and (max-width: 600px) {
+
+  }
+*/
