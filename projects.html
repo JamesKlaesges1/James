@@ -4,7 +4,14 @@
             <meta charset="utf-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <title>Projects</title>
+            <link rel="shortcut icon" href="TemplateData/favicon.ico">
             <link rel = "stylesheet" href="style.css"/>
+
+            <script src="TemplateData/UnityProgress.js"></script>
+            <script src="Build/UnityLoader.js"></script>
+            <script>
+                var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Desktop.json", {onProgress: UnityProgress});
+              </script>
         </head>
         <body>
             <ul class = "bottomReferrer">
@@ -33,13 +40,18 @@
                         I also made it compatible with both Android and WebGL platforms.
                         I plan on expanding this game by adding more levels and more features, such as a timer and point system.
                     </p>
-                    <h3>Demo of the Android Version:</h3>
-                    <video class = "float" width="620" height="400" controls>
-                        <source src="videos/MarioVideo.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <h3>Screenshot of the Browser Version:</h3>
-                    <img width="650" height="350" src = "photos/mario.jpg" alt = "Screenshot of Browser Version">
+                   
+                    <div class="webgl-content">
+                        <div id="unityContainer" style="width: 960px; height: 600px"></div>
+                        <div class="footer">
+                          <div class="webgl-logo"></div>
+                          <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+                          <div class="title">Horrible Mario</div>
+                        </div>
+                      </div>
+
+
+
                 <h2 class = "clearLeft">Project Two: Making my Own App</h2>
                     <video class = "float" width="280" height="495" controls>
                         <source src="videos/AppVideo.mp4" type="video/mp4">
