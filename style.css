@@ -67,6 +67,39 @@ a:hover{
 .center{
     text-align: center;
 }
+/*For Image hovering */
+.imageHover {
+    opacity: 1;
+    backface-visibility: hidden;
+    transition: .5s ease;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.textHover {
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+.upper {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+}
+.imageContainer {
+    float:left;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.imageContainer:hover .imageHover {
+    opacity: 0.2;
+}
+.imageContainer:hover .upper {
+    opacity: 1;
+}
 /*For resizing images/videos based on size of the viewport*/
 @media screen and (max-width: 750px) {
     img, video{
