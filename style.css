@@ -22,6 +22,7 @@
     padding: 0;
     background-color: #F4976C;
     overflow: auto;
+    box-shadow: 5px 5px 5px grey;
 }
 .block{
     display: block;
@@ -40,6 +41,7 @@ p{
     padding-left: 2rem;
     width: 90%;
     margin-left: 1rem;
+    box-shadow: 3px 3px 5px grey;
 }
 h1, h2, h3{
     background-color: #303C6C;
@@ -47,6 +49,7 @@ h1, h2, h3{
     padding: 1.1rem;
     padding-left: 2rem;
     width: 95%;
+    box-shadow: 5px 5px 5px grey;
 }
 img, video{
     padding-bottom: 1rem;
